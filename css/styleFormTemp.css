@@ -1,0 +1,453 @@
+header {
+  width: 100%;
+  min-width: 1170px;
+  height: 100%;
+  background-image: url(../img/background-header-miq.jpeg);
+  /*background-size: 100%;*/
+  /*background-repeat: no-repeat;*/
+}
+header a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #fff;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.header-container {
+  width: 1170px;
+  /*min-height: 583px;*/
+  font-size: 0;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+.logo {
+  display: inline-block;
+width: 165px;  /*на 5px меньше 170-и  из-за маленького отступа слева*/
+margin-top: 20px;
+margin-right: 30px;
+margin-left: 5px; /*5 px - тот самый, маленький отступ.*/
+vertical-align: bottom;
+}
+
+.logo span {
+display: block;
+  font-size: 20px;
+  color: #e29f22;
+font-family: 'Rubik', sans-serif;
+}
+
+nav {
+  display: inline-block;
+  width: 570px;
+}
+
+nav ul {
+
+  display: inline-block;
+  width: 370px;
+ padding: 0;
+ text-align: justify;
+}
+
+nav ul li {
+  display: inline-block;
+  width: 80px;
+  padding: 20px 45px 20px 10px;
+  border-bottom: 2px solid #e29f22;
+}
+
+nav ul li:last-child {
+  padding-right: 10px;
+}
+
+.basket {
+
+  display: inline-block;
+  width: 170px;
+  margin-left: 30px; /* */
+  padding-left: 10px; /*на картинку 20 + отступ 10*/
+}
+
+.basket-img {
+  position: relative;
+  top: 2px;
+  right: 10px;
+}
+
+.callback {
+  display: inline-block;
+  width: 170px;
+  margin-left: 20px;
+  font-size: 14px;
+
+  /*background-color: red;*/
+
+}
+
+
+/*/////////////////*/
+/*Далее блок PROMO*/
+/*/////////////////*/
+
+.promo {
+padding-top: 110px;
+height: 380px;
+}
+
+.promo h1 {
+  display: inline-block;
+  width: 600px;
+  margin: 0 165px 0 5px;  /* тот самый, маленький отступ от края . Не потерять остальные!*/
+  font-family: 'Rubik', sans-serif;
+  font-size: 30px;
+  color: #fff;
+}
+
+blockquote {
+  display: inline-block;
+  width: 275px;
+  padding: 0 25px 0 30px; /*25 - тобы дозаполнить отступ закрывающей кавычки */
+  margin: 0;
+  font-family: 'PT Sans', sans-serif;
+  color: #9ac3ff;
+  font-size: 16px;
+  line-height: 22pt;
+}
+
+
+.promo span {
+  display: block;
+  /*height: 50px;*/
+  padding-top: 20px;
+  margin-left: 5px; /*маленький отступ от края. Не потерять остальные!*/
+  margin-right: 5px;  /*для симметрии*/
+  /*margin-bottom: 203px; чтоб отображался весь bgi (а на неглавных страницах - не весь)*/
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20px;
+  color: #fff;
+}
+
+
+
+
+
+
+
+  /*///////////////////*/
+ /*Далее страница form*/
+/*///////////////////*/
+
+  header.form {
+    background-image: url(..//img/background-header-form.jpeg);
+  }
+
+
+  h1.form {
+
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 75px;
+    padding-left: 100px;
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 18pt;
+    color: #fff;
+  }
+
+main.form {
+  width: 100%;
+    min-width: 1170px;
+    background-color: #e8e8e8;
+    padding-bottom: 85px;
+}
+
+.form-container {     /*именно этот блок будет позиционироваться - дернуть выше*/
+  width: 970px;
+  margin: 0 auto;
+  padding: 30px 100px 0 100px;
+  /*margin-bottom: 55px; -- отдельно для каждой колонки*/
+  background-color: #fff;
+
+  font-size: 0;
+  vertical-align: top;
+  border: 1px solid #000;
+
+    /*но это не точно*/
+  /*z-index: 1;*/
+}
+
+/*.form-order-items {   вся фрма (в три столбца)
+  display: block;
+  height: 500px;
+  width: 370px;*/
+
+form {
+  width: 100%;
+  height: 100%;
+}
+
+
+.form-item-list {
+  width: 100%;
+  height: 100%;
+  font-size: 0;
+  background-color: red;
+  /*border:  1px solid #000;*/
+}
+
+
+/*                      .form-head {
+                        width: 470px;
+
+                        font-family: 'PT Sans', sans-serif;
+                        font-size: 14px;
+                        color: #7a7a7a;
+                        font-size: 0;
+                      }
+
+                      span.form-item-list {
+                        display: inline-block;
+                        font-size: 14px;
+                        color: #7a7a7a;
+                        width: 270px;
+                        margin: 0;
+                        padding-bottom: 16px;
+                      }
+
+                      p.form-item-count {
+                        display: inline-block;
+                        font-size: 14px;
+                        color: #7a7a7a;
+                        width: 100px;
+                        margin: 0;
+                        padding-bottom: 16px;
+                      }
+
+                    ol.form-item-list {
+                      display: block;
+                      padding-left: 20px;
+                    }
+
+                    .form-item-list li {
+                      display: list-item;
+
+                      font-family: 'PT Sans', sans-serif;
+                      font-weight: bold;
+                      font-size: 16px;
+                      color: #171f30;
+                      padding-bottom: 18px;
+
+                    }
+
+                    input.form-item-count {
+
+                      width: 45px;
+
+                    }*/
+
+.form-delivery {
+  display: inline-block;
+  width: 328px; /*по 1пкс на границы */
+/*height: 0;*/
+  border-left:  1px solid #d0d0d0;
+  border-right: 1px solid #d0d0d0;
+  font-size: 16px;
+  /*border:  1px solid #000;*/
+  background-color: orange;
+
+}
+
+                    .form-delivery-deltype, .form-delivery-paytype {
+
+                      font-family: 'PT Sans', sans-serif;
+                      font-size: 0;
+                      color: #2f3030;
+                    }
+
+                    .form-delivery-deltype p, .form-delivery-paytype p {
+                      display: inline-block;
+                      width: 140px;
+                      font-size: 16px;
+                    }
+                    /*.form-delivery-paytype p {
+                      display: inline-block;
+                      width: 140px;
+                    }*/
+
+                    .form-delivery select{
+                      display: inline-block;
+                      width: 130px;
+                      font-size: 16px;
+                      color: #939393;
+                    }
+
+
+
+.form-customer-info {
+  display: inline-block;
+  width: 270px;
+  font-size: 0;
+  background-color: lime;
+
+  /*height: 100px;*/
+}
+
+                    .form-customer-info div {
+                      font-size: 16px;
+                    }
+
+                    .form-customer-info div span {
+                      display: inline-block;
+                      width: 100px;
+                      padding-left: 27px;
+                    }
+
+
+
+/*////////////////////////////*/
+/*/////////////////*/
+/*FOOOOOOOOTER*/ /*/////////////////////////////////*/
+/*/////////////////////*/
+/*//////////////////////////*/
+
+
+footer {
+  width: 100%;
+  min-width: 1170px;
+  background-color: #2f4565;
+}
+
+div.footer-container {
+  width: 1170px;
+  height: 230px;
+  font-size: 0;
+  margin: 0 auto;
+  /*border: 1px solid #000;*/
+  /*vertical-align: middle;*/
+}
+
+div.footer-logo {
+  display: inline-block;
+  width: 200px;
+  height: 160px;    /*в сумме с паддингом д.быть 230*/
+  padding-top: 70px;
+  /*vertical-align: middle;*/
+}
+
+                      .footer-logo span {
+                        display: block;
+                        padding-top: 10px;
+                        font-family: 'Rubik', sans-serif;
+                        font-size: 20px;
+                        color: #feb326;
+                      }
+
+div.footer-nav {
+  display: inline-block;
+  width: 800px;
+  height: 185px;    /*в сумме с паддингом д.быть 230*/
+  vertical-align: top;
+  padding-top: 45px;
+  /*vertical-align: middle;*/
+}
+
+                      .footer-nav span {
+                        display: block;
+                        padding-bottom: 20px;
+                        font-family: 'PT Sans', sans-serif;
+                        font-weight: bold;
+                        font-size: 20px;
+                        /*line-height: 64px;*/
+                        color: #feb326;
+                      }
+
+                      .footer-nav ul {
+                        display: inline-block;
+                        width: 400px;
+                        padding: 0;
+                      }
+
+                      .footer-nav li {
+                        display: inline-block;
+                        width: 200px;
+                        /*padding-bottom: 12px;*/
+                        list-style: none;
+                        font-size: 16px;
+                      }
+
+                      .footer-nav li a {
+                        text-decoration: none;
+                        font-family: 'PT Sans', sans-serif;
+                        font-size: 16px;
+                        line-height: 32px;
+                        color: #fefefe;
+                      }
+
+
+
+.footer-callback-and-media {
+  display: inline-block;
+  width: 170px;
+  height: 145px;    /*в сумме с паддингом д.быть 230*/
+  padding-top: 85px;
+  vertical-align: top;
+}
+
+
+
+              a.footer-callback {
+                  display: inline-block;
+                  width: 170px;
+                  text-decoration: none;
+                  font-family: 'PT Sans', sans-serif;
+                  font-size: 14px;
+                  color: #e9a731;
+                }
+
+              .social-media {
+                display: block;
+                width: 170px;
+                padding-top: 30px;
+              }
+
+              .social-media img {
+                display: inline-block;
+                width: 31px;
+                padding-right: 20px;
+              }
+
+
+
+
+/*.container {
+  width: 600px;
+  height: 300px;
+  border: 1px solid #000;
+  font-size: 0;
+   vertical-align: top;
+}
+
+.b1, .b2, .b3 {
+  display: inline-block;
+  height: 100px;
+  width: 200px;
+  font-size: 10px;
+  /*box-sizing: border-box;*/
+ /* vertical-align: top;
+  background-color: red;}*/
+
+
+
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*//FOOOOOOOOOOORM///////FORM///////FORM///////FORM///////FORM////////FORM///////FORM/////////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+

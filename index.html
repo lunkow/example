@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Splash!</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+   <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i|Rubik:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+ <!-- <link href="https://fonts.googleapis.com/css?family=PT+Sans|Rubik:500&amp;subset=cyrillic" rel="stylesheet"> -->
+<body>
+
+    <header>
+      <div class="header-container">
+        <!-- Вопрос : Убрать ли див или сделать разный класс у дива и ссылки? -->
+
+        <div class="logo">
+           <!-- <a href="#" class="logo"></a> -->
+           <img src="img/logo.png" height="50" alt="Splash">
+           <span>SPLASH</span>
+        </div>
+
+
+          <nav>
+            <ul>
+              <li><a href="#" class="nav-item">Каталог</a></li>
+              <li><a href="#" class="nav-item">Вопросы</a></li>
+              <li><a href="#" class="nav-item">Контакты</a></li>
+            </ul>
+          </nav>
+
+
+
+          <a href="#" class="basket"><img class="basket-img" src="img/logo_basket.png" width="20px" alt="">Корзина</a> <!-- + class = "not-empty" -->
+          <a href="#" class="callback"><u>Заказать обратный звонок</u></a>
+
+
+        <div class="promo">
+          <h1>Рыбки и оборудование для аквариумистики в Санкт-Петербурге</h1>
+          <blockquote>Магазин "Splash" уже 5 лет занимается аквариумистикой. У нас вы найдете все по рыбкам.</blockquote>
+          <span>50 видов аквариумов и более 150 видов рыб</span>
+        </div>
+
+      </div>
+    </header>
+
+
+      <!-- main>h2+.catalog-nav>ul>li*5^^.fish-types>.fish-type-item  -->
+
+
+
+<main>
+
+    <div class="catalog-container">
+
+        <h2>Каталог товаров</h2>
+
+
+            <ul class="catalog-nav">
+              <li class="catalog-nav catalog-current">
+                <div><img src="img/catalog-nav-fishes.png" alt="fishes">Рыбы</div>
+              </li>
+              <li class="catalog-nav">
+                  <div>
+                      <img src="img/catalog-nav-aquariums.png" alt="">Аквариумы
+                  </div>
+              </li>
+
+              <li class="catalog-nav">
+                  <div>
+                      <img src="img/catalog-nav-forages.png" alt="">Корма
+                  </div>
+              </li>
+
+              <li class="catalog-nav">
+                  <div>
+                      <img src="img/catalog-nav-equipment.png" alt="">Оборудование
+                  </div>
+              </li>
+
+              <li class="catalog-nav">
+                  <div>
+                      <img src="img/catalog-nav-grounds.png" alt="">Грунты и наполнители
+                  </div>
+              </li>
+
+            </ul>
+
+
+
+
+        <div class="fish-types">
+
+          <div class="fish-type-item">
+            <span class="fish-type-item">Вьюновые и сомы</span>
+            <div class="fish-group-container">
+                <span class="fish-type-item-group">- семейство "межкожаберные"</span>
+            </div>
+            <img src="img/loach-and-catfishes.jpg" width="170px" alt="loach-and-catfishes">
+
+          </div>
+
+            <div class="fish-type-item">
+              <span class="fish-type-item">Дискусовые</span>
+              <div class="fish-group-container"><span class="fish-type-item-group">- семейство "камбалы"</span></div>
+              <img src="img/discuses.jpg" width="170px" alt="loach-and-catfishes">
+            </div>
+
+              <div class="fish-type-item">
+                <span class="fish-type-item">Золотые рыбки</span>
+                <div class="fish-group-container">
+                    <span class="fish-type-item-group">- пресноводный хищник</span>
+                </div>
+                <img src="img/gold-fishes.jpg" width="170px" alt="loach-and-catfishes">
+              </div>
+
+                <div class="fish-type-item">
+                  <span class="fish-type-item">Карповые</span>
+                  <div class="fish-group-container">
+                      <span class="fish-type-item-group">- семейство "карпозубые"</span>
+                  </div>
+                  <img src="img/carps.jpg" width="170px" alt="loach-and-catfishes">
+                </div>
+
+                  <div class="fish-type-item">
+                    <span class="fish-type-item">Лабиринтовые</span>
+                    <div class="fish-group-container">
+                        <span class="fish-type-item-group">- морской хищник</span>
+                    </div>
+                    <img src="img/climbing-perches.jpg" width="170px" alt="loach-and-catfishes">
+                  </div>
+
+                    <div class="fish-type-item">
+                      <span class="fish-type-item">Живородящие</span>
+                      <div class="fish-group-container">
+                          <span class="fish-type-item-group">- семейство "радужницы"</span>
+                      </div>
+                      <img src="img/livebearers.jpg" width="170px" alt="loach-and-catfishes">
+
+                    </div>
+        </div>
+    </div>
+
+
+
+      <div class="stock-container">
+            <div class="left-stock">
+                  <div class="left-stock-text">
+                    <span>Акция</span>
+                    <p>
+                        Скидки 30% на все растения в марте при заказе через интернет
+                    </p>
+                    <button class="stock-button">Посмотреть товары</button>
+                  </div>
+            </div>
+            <div class="right-stock">
+                  <div class="right-stock-text">
+                      <span>Акция</span>
+                      <p>
+                        Скидки 30% на группы рыб от 20 штук!
+                      </p>
+                      <button class="stock-button">Посмотреть товары</button>
+                  </div>
+      </div>
+  </div>
+
+<div class="popular">
+            <div class="popular-container">
+
+                <span class="popular-head">Популярные товары</span>
+
+                  <div class="product-card">
+                      <a href="#">
+                      <img src="img/popular-fish.jpg" width="270px" alt="dashed-fish">
+                      <div class="product-info">
+                        <span class="product-info">Рыба полосатая</span>
+                        <p class="product-parametr">размер: 15 мм</p>
+                        <p class="product-parametr">вид: живородящие</p>
+                     </div>
+                     </a>
+                  </div>
+                  <div class="product-card">
+                      <a href="#">
+                      <img src="img/popular-aquarium.jpg" width="270px" alt="aquarium">
+                      <div class="product-info">
+                        <span class="product-info">Аквариум средний</span>
+                        <p class="product-parametr">объем: 400 мл</p>
+                        <p class="product-parametr">ширина: 20 см</p>
+                     </div>
+                     </a>
+                  </div>
+                  <div class="product-card">
+                      <a href="#">
+                      <img src="img/popular-forage.jpg" width="270px" alt="forage">
+                      <div class="product-info">
+                        <span class="product-info">Корм гранулированый</span>
+                        <p class="product-parametr">размер: 15 мм</p>
+                        <p class="product-parametr">объем: 400 мл</p>
+                     </div>
+                     </a>
+                  </div>
+                  <div class="product-card">
+                      <a href="#">
+                      <img src="img/popular-cleaner.jpg" width="270px" alt="cleaner">
+                      <div class="product-info">
+                        <span class="product-info">Очиститель водный</span>
+                        <p class="product-parametr">объем: 400 мл</p>
+                        <p class="product-parametr">ширина: 20 см</p>
+                     </div>
+                     </a>
+                  </div>
+            </div>
+          <button class="popular-button">Посмотреть все</button>
+</div>
+
+<div class="how-to-order">
+
+
+      <div class="how-to-order-container">
+          <h3>Как сделать заказ</h3>
+
+
+            <div class="how-to-order-steps">
+
+
+              <div class="how-to-order-step-one">
+                  <div class="how-to-order-picture">
+                      <img src="img/how-to-order-finger.png" width="45px" alt="finger">
+                  </div>
+                  <div class="how-to-order-instruction">
+                    <span class="instruction"> <span class="step-number">1</span>Выберите, что хотите купить<br><a href="#">Посмотреть каталог</a></span>
+
+                  </div>
+              </div>
+
+
+                    <div class="how-to-order-step-two">
+                    <div class="how-to-order-picture">
+                            <img src="img/how-to-order-drum.png" width="45px" rotate="90deg" alt="drum">
+                        </div>
+                        <div class="how-to-order-instruction">
+                        <span class="instruction"> <span class="step-number">2</span>Добавьте этот товар в корзину</span>
+                        </div>
+                    </div>
+
+
+                          <div class="how-to-order-step-three">
+                               <div class="how-to-order-picture">
+                                    <img src="img/how-to-order-wallet.png" width="45px" alt="wallet">
+                              </div>
+                              <div class="how-to-order-instruction">
+                              <span class="instruction"> <span class="step-number">3</span>Оплатите заказ по карте или<br>наличными в магазине</span>
+                              </div>
+                          </div>
+            </div>
+
+
+
+
+
+
+       </div>
+
+
+</div>
+
+
+
+<div class="about">
+
+    <div class="about-container">
+
+        <div class="about-left-block">
+          <div id="map" class="map"></div>
+        </div>
+
+
+
+            <div class="about-time">
+                <span class="company-name">Салон аквадизайна «Splash»</span>
+                <img class="time" src="img/about-time.png" width="35px" alt="time"> <span class="about-time-item">Время работы магазина:<br>с 10.00 до 18.00</span> <br>
+                <img class="delivery" src="img/about-delivery.png" width="35px" alt="delivery"><span class="about-time-item">Доставка курьером:<br>c 09.00 до 22.00</span> <br>
+                <img class="day-offs" src="img/about-day-offs.png" width="31px" alt="day_offs"><span class="about-time-item">Выходные дни:<br>суббота, воскресенье и <br>праздничные дни</span>
+            </div>
+
+
+
+            <div class="about-contacts">
+                <span class="company-address">Санкт-Петербург, набережная реки Фонтанки 99.</span>
+
+                <span class="prices-info">Цены, представленные на сайте действительны только в случае оформления заказа через Интернет-Магазин</span>
+
+                <img class="phone" src="img/about-phone.png" width="30px" alt="phone:"> <span class="about-contacts-item">+7(812)310-2972</span> <br>
+
+                <img class="email" src="img/about-email.png" width="30px" alt="email:"> <span class="about-contacts-item">aqualandia@mail.ru</span>
+
+
+
+
+            </div>
+
+
+
+
+
+
+    </div>
+
+</div>
+
+  </main>
+
+
+<footer>
+  <div class="footer-container">
+        <div class="footer-logo">
+           <img src="img/footer-logo.png" height="50" alt="Splash">
+           <span>SPLASH</span>
+        </div>
+
+        <div class="footer-nav">
+              <span>Каталог</span>
+              <ul>
+                <li> <a href="#">Рыбы</a> </li>
+                <li> <a href="#">Оборудование</a> </li>
+                <li> <a href="#">Аквариумы</a> </li>
+                <li> <a href="#">Грунты и наполнители</a> </li>
+                <li> <a href="#">Корма</a> </li>
+              </ul>
+        </div>
+
+        <div class="footer-callback-and-media">
+          <a href="#" class="footer-callback"><u>Заказать обратный звонок</u></a>
+            <div class="social-media">
+              <a href="http://ok.ru"><img src="img/social-media-odnoklassniki.png" alt="odnoklassniki"></a>
+              <a href="http://twitter.com"><img src="img/social-media-twitter.png" alt="twitter"></a>
+              <a href="http://vk.com"><img src="img/social-media-vk.png" alt="vk"></a>
+            </div>
+        </div>
+  </div>
+</footer>
+
+
+
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDsoPRAhU1br53ZvSHK0rcn977j8AlXoeA&signed_in=true&callback=initMap"></script>
+
+
+
+
+<script>
+  // Определение точных координат: http://www.mapcoordinates.net/ru
+// Примеры кода: https://developers.google.com/maps/documentation/javascript/examples/?hl=ru
+
+// Одна или несколько точек на карте
+var mapPoints = [
+  [
+    'Новая точка на карте',
+    59.9236097,30.3202743,
+    '<div class="some-class"><h2>Заголовок</h2><p>Лорем ипсум долор хрень какая-то, но видно, что это самая обычная разметка</p></div>'
+  ]
+
+];
+
+// Стилизация карты
+// Подробнее о стилях: https://developers.google.com/maps/documentation/javascript/styling?hl=ru
+var mapStyle = [{
+  featureType: 'all'
+  // ,stylers: [{ saturation: -100 }]
+}];
+
+// Будущее инфоокно, возникающее по клику на маркере карты
+var mapInfoWindow = null;
+
+// Инициализация карты (вызывается после загрузки скрипта)
+function initMap() {
+  // Найдем тег карты по id
+  var mapDiv = document.getElementById('map');
+  // Определим центр карты
+  var center = {lat: 59.9236097, lng: 30.3202743};
+  // Создадим объект карты
+  var map = new google.maps.Map(mapDiv, {
+    zoom: 13,
+    center: center,
+    disableDefaultUI: true,
+    styles: mapStyle
+  });
+  //  Вызовем функцию, которая расставит маркеры
+  setMapMarkers(map);
+  // Создадим объект инфоокна
+  mapInfoWindow = new google.maps.InfoWindow({
+    content: "loading...",
+    maxWidth: 200
+  });
+  // Начнем следить за ресайзом карты
+  map.addListener('resize', function() {
+    map.panTo(center); // Отцентруем
+  });
+  // Начнем следить за ресайзом окна (важно, если ресайз окна влияет на размер блока карты)
+  google.maps.event.addDomListener(window, 'resize', function(){
+    google.maps.event.trigger(map, 'resize'); // Вызовем событие ресайза карты
+  });
+  // Начнем следить за изменением центра, через 3 с. вернем центр по умолчанию
+  // map.addListener('center_changed', function() {
+  //   window.setTimeout(function() {
+  //     map.panTo(center);
+  //   }, 3000);
+  // });
+}
+
+// Функция проставляет маркеры карты
+function setMapMarkers(map) {
+  // Данные о картинке-маркере (в этом примере для всех маркеров одна картинка)
+  var image = {
+    url: 'img/about-marker.png',
+    // Эта картинка 128×128 пикселей.
+    // Точка «упора» нарисованного маркера по горизонтали — середина
+    // Точка «упора» нарисованного маркера по вертикали в 11 пикселях от нижнего края картинки
+    size: new google.maps.Size(20, 20),
+    anchor: new google.maps.Point(10, 10) // 128 / 2 (горизонталь) и 128 - 11 (вертикаль)
+  };
+  // Обходим массив маркеров и проставляем каждый
+  for (var i = 0; i < mapPoints.length; i++) {
+    // Переменная с данными этой точки
+    var point = mapPoints[i];
+    // Создаем маркер карты
+    var marker = new google.maps.Marker({
+      position: {lat: point[1], lng: point[2]},
+      map: map,
+      icon: image,
+      title: point[0],
+      html: point[3],
+    });
+    // Начинаем следить за кликом на маркере
+    google.maps.event.addListener(marker, 'click', function () {
+      mapInfoWindow.setContent(this.html);
+      mapInfoWindow.open(map, this);
+    });
+  }
+}
+</script>
+
+
+</body>
+
+</html>
